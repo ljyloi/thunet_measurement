@@ -1,0 +1,10 @@
+tcpmux 1
+echo 7
+ftp 21
+ssh 22
+telnet 23
+smtp 25
+dns 53
+http 80
+snmp 161
+https 443

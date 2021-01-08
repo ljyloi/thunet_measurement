@@ -1,0 +1,21 @@
+# Nmap 7.91 scan initiated Sat Dec 26 13:03:33 2020 as: nmap --traceroute -O --osscan-guess -oA fuck2 118.229.3.125
+Nmap scan report for 118.229.3.125
+Host is up (0.027s latency).
+Not shown: 997 closed ports
+PORT    STATE    SERVICE
+21/tcp  filtered ftp
+179/tcp filtered bgp
+646/tcp filtered ldp
+Too many fingerprints match this host to give specific OS details
+Network Distance: 5 hops
+
+TRACEROUTE (using port 8080/tcp)
+HOP RTT      ADDRESS
+1   31.74 ms 183.172.240.1
+2   15.94 ms 172.17.2.25
+3   12.81 ms 118.229.2.78
+4   12.82 ms 118.229.2.5
+5   15.96 ms 118.229.3.125
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Dec 26 13:03:36 2020 -- 1 IP address (1 host up) scanned in 3.27 seconds

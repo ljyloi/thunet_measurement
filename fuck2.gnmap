@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Sat Dec 26 13:03:33 2020 as: nmap --traceroute -O --osscan-guess -oA fuck2 118.229.3.125
+Host: 118.229.3.125 ()	Status: Up
+Host: 118.229.3.125 ()	Ports: 21/filtered/tcp//ftp///, 179/filtered/tcp//bgp///, 646/filtered/tcp//ldp///	Ignored State: closed (997)
+# Nmap done at Sat Dec 26 13:03:36 2020 -- 1 IP address (1 host up) scanned in 3.27 seconds

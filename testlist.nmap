@@ -1,0 +1,36 @@
+# Nmap 7.91 scan initiated Sat Dec 26 04:22:19 2020 as: nmap -oA testlist -iL testlist -O --osscan-guess --traceroute -T4
+Warning: 101.4.113.233 giving up on port because retransmission cap hit (6).
+Nmap scan report for 101.4.113.233
+Host is up (0.011s latency).
+All 1000 scanned ports on 101.4.113.233 are closed (615) or filtered (385)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 5 hops
+
+TRACEROUTE (using port 1723/tcp)
+HOP RTT      ADDRESS
+1   9.47 ms  183.173.128.1
+2   7.81 ms  118.229.5.9
+3   9.50 ms  118.229.4.33
+4   12.79 ms qhu0.cernet.net (202.112.38.69)
+5   26.20 ms 101.4.113.233
+
+Nmap scan report for 101.4.112.98
+Host is up (0.013s latency).
+Not shown: 998 closed ports
+PORT   STATE    SERVICE
+22/tcp filtered ssh
+23/tcp filtered telnet
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: switch|WAP
+Running: Huawei embedded, Huawei VRP 3.X|5.X
+OS CPE: cpe:/h:huawei:cloudengine_ce6800 cpe:/h:huawei:ap6050dn cpe:/h:huawei:s2326 cpe:/o:huawei:vrp:3 cpe:/o:huawei:vrp:5.160
+OS details: Huawei CloudEngine CE6800 switch, Huawei AP6050DN WAP, Huawei S2326 switch, Huawei S9300 switch, Huawei VRP 3 switch, Huawei VRP 5.160
+Network Distance: 6 hops
+
+TRACEROUTE (using port 1723/tcp)
+HOP RTT     ADDRESS
+-   Hops 1-5 are the same as for 101.4.113.233
+6   9.52 ms 101.4.112.98
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Dec 26 04:23:44 2020 -- 2 IP addresses (2 hosts up) scanned in 84.97 seconds
